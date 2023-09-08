@@ -1,0 +1,193 @@
+.App1 {
+  border: 0px solid; /* Only width and style */
+  border-color: rgb(247, 14, 14); /* Set color separately */
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+
+.image-container1{
+  float: left;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 0px;
+  height: 100vh;
+  position: relative;
+}
+
+.image-container1 img{
+  
+  width: 100%;
+  height: 100vh;
+}
+
+.login-details {
+  float: left;
+  width: 50%;
+  background-color:white;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Logo_Name{
+  
+ position: absolute;
+width: 299px;
+height: 150px;
+margin-left:20px;
+
+box-sizing: border-box;
+border: 2px hidden; /* Only width and style */
+border-color: rgb(247, 14, 14); /* Set color separately */
+margin-top: 21px;
+margin-bottom: 0px;
+}
+.Logo_Name img{
+  width: 100%;
+  height: 100%;
+}
+.no-Account{
+ 
+  box-sizing: border-box;
+  width: 299px;
+  height: 100px;
+  margin-left:400px;
+  text-decoration-color: grey;
+  margin-top: 25px;
+  border: 2px solid; /* Only width and style */
+border-color: rgb(255, 255, 255); /* Set color separately */
+ 
+}
+
+.login-form
+{
+  border: 2px solid; /* Only width and style */
+  border-color: rgb(255, 255, 255); /* Set color separately */
+  margin-left:43px;
+  margin-top: 20px;
+  padding-bottom:10px;
+}
+#email-image{
+    float: left;
+    width: 4vw; /* Each div takes 50% width of the container */
+    box-sizing: border-box; /* Include padding and border within the width */
+    padding: 0px;
+    border: 1px solid #ccc;
+    height: 8vh;
+    border: 2px solid black;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+
+}
+#email-input{
+  float: left;
+  width: 30vw; /* Each div takes 50% width of the container */
+  box-sizing: border-box;/* Include padding and border within the width */
+  padding: 0px;
+  border: 1px solid #ccc;
+  height: 10vh;
+  font-size: 20px;
+  padding-left: 20px;
+  height: 8vh;
+  border: 2px solid black;
+  border-left: none;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Comic Sans MS', cursive;
+
+}
+
+.email-box{
+  overflow: hidden; /* Clear float */
+  padding-bottom:20px;
+  border: 0px solid #000;
+  padding-top: 40px;
+  
+}
+
+
+
+.password-box{
+  overflow: hidden; /* Clear float */
+  padding-bottom:4vh;
+  
+
+}
+
+#password-image{
+  float: left;
+  width: 4vw; /* Each div takes 50% width of the container */
+  box-sizing: border-box; /* Include padding and border within the width */
+  padding: 0px;
+  border: 1px solid #ccc;
+  height: 8vh;
+  border: 2px solid black;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+}
+
+#password{
+  float: left;
+  width: 30vw; /* Each div takes 50% width of the container */
+  box-sizing: border-box; /* Include padding and border within the width */
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  height: 8vh;
+  font-size: 20px;
+  border: 2px solid black;
+  border-left: none ;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Comic Sans MS', cursive;
+
+}
+#bn {
+position: relative;
+width: 80px;
+height: 40px;
+left: 0px;
+top: 1px;
+background: #404cfb;
+border-radius: 10px;
+border: 0px solid #fbff00;
+padding:0px;
+margin:0px;
+
+font-family: 'Comic Sans MS', cursive;
+font-style: normal;
+font-weight: 500;
+ color: #FFFFFF;
+ transition: transform 0.5s ease-in-out;
+}
+
+#bn:hover{
+  background-color: black;
+  cursor: pointer;
+           transform: scale(1.2);
+}
+input:focus {
+  outline: none; /* This removes the outline completely */
+  
+}
+
+.sign-up{
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  color: black; /* Set text color */
+  /* Add underline to text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 0; /* Remove padding */
+  transition: transform 0.9s ease-in-out;
+  font-size:20px;
+  
+  
+  
+}
+.sign-up:hover{
+  background-color:white;
+  transform: scale(1.3);
+}
+
+
+
+
+  

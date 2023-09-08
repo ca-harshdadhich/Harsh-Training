@@ -1,0 +1,67 @@
+.Parent_profileBox{
+        border: 5px solid grey;
+         transition: all 0s linear;
+         display: flex;
+         width: 10vw;
+         height: 20vh;;
+         margin-left:auto;
+         flex-direction:column;
+         margin-right: 20vw;
+}
+
+.container.expanded .Parent_profileBox{
+       border: 5px dotted yellow;
+       
+       
+    
+       
+      
+      
+       
+}
+.dropdown{
+         
+         border: 0px solid  yellow;
+         margin-top: 0px;
+         width: auto;
+         z-index: 100;
+        
+       
+}
+
+
+
+
+.profileBox {
+         display: flex;
+         border: 0px solid black;
+         width: 10vw;
+         margin-left: 0px;
+         flex-direction: row;
+       }
+       
+       .profileBox img {
+         border: 0px dotted red;
+         height: 100%;
+         width:20%; /* Set the height of the image to 100% of its containing block (.profileBox) */
+        /* Ensure that the width scales proportionally with the height */
+         object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+       }
+       .profilename{
+         font-family: 'Comic Sans MS', cursive;
+
+
+         font-style: normal;
+         font-weight: 500;
+       }
+
+       .dropdown-list{
+         margin-top: 0.2vh;
+         border: 1px solid red;
+         height: 10vh;
+         width: 100%;
+         margin-left: 0vw;
+         background-color: white;
+       }
+
+       

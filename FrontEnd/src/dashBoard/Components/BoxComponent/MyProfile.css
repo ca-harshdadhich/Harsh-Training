@@ -1,0 +1,16 @@
+.MyProfile_ParentBox{
+         display: flex;
+         border: 0px solid blue;
+         height: 100%;
+         width:100%;
+         flex-direction: row;
+}
+
+.MyProfile_ChildBox{
+         margin-left:4.5vw;
+         width: 80vw;;
+         border: 5px solid yellowgreen;
+         height: 80%;
+         width: 50%;
+         
+}

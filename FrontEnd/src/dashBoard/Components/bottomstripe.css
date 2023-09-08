@@ -1,0 +1,17 @@
+.bottomstripe{
+         display: flex;
+         border: 0px solid blue;
+         width: 100%;
+         height: 10vh;
+         background-color: #c0caf5;
+         flex-direction: row;
+    }
+
+.bottomstripe_Text{
+     margin-left:4.5vw;
+     margin-top: 2vh;
+     width:80vw;
+     height: 100%;
+     border: 0px solid pink;
+
+}
